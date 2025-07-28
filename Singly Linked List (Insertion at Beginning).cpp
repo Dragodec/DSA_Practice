@@ -9,6 +9,7 @@ struct Node // custom data type using struct
   Node(int data)
   {
     this -> data = data; // use this keyword to notify the compiler that we are using the data variable in current scope
+    next = nullptr; // important to prevent unexpected behaviours
   }
 };
 
